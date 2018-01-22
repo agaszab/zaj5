@@ -7,11 +7,17 @@ public class Employee {
     public Employee(String imie, String nazwisko, double wyplata) {
         this.imie = imie;
         this.nazwisko = nazwisko;
-        this.wyplata=wyplata;
+        this.wyplata = wyplata;
     }
 
-    public Employee(){
+    public Employee() {
 
+    }
+
+    void showInfo() {
+        System.out.println(imie);
+        System.out.println(nazwisko);
+        System.out.println(wyplata);
     }
 
     public double getWyplata() {
