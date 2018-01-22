@@ -13,6 +13,8 @@ public class Wielowymiarowa {
         liczby [1][0]=20;
         liczby [2][0]=30;
 
+        int[] liczby= {1,55,6,}; // def tabl z juz okreslonymi liczbami
+
         //10 0 0 0 0
         //20 0 0
         //30 0
